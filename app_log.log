@@ -56,6 +56,9 @@ master updated
 2017-02-09T06:00:30.31+0000 [APP/0]      OUT 2017-02-09 06:00:30.312  INFO 26 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
 2017-02-09T06:00:30.31+0000 [APP/0]      OUT 2017-02-09 06:00:30.316  INFO 26 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
 test record
+test record
+test record
+test record
 2017-02-09T06:00:30.31+0000 [APP/0]      OUT 2017-02-09 06:00:30.316  INFO 26 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
 2017-02-09T06:00:30.31+0000 [APP/0]      OUT 2017-02-09 06:00:30.317  INFO 26 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
 2017-02-09T06:00:30.31+0000 [APP/0]      OUT 2017-02-09 06:00:30.317  INFO 26 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
