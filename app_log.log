@@ -57,7 +57,7 @@ master updated
 2017-02-09T06:00:30.31+0000 [APP/0]      OUT 2017-02-09 06:00:30.316  INFO 26 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
 test record
 test record
-121164546565656565565
+done done
 test record
 test record
 2017-02-09T06:00:30.31+0000 [APP/0]      OUT 2017-02-09 06:00:30.316  INFO 26 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
