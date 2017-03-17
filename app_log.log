@@ -58,6 +58,7 @@ master updated
 test record
 test record
 done done
+done done
 test record
 test record
 2017-02-09T06:00:30.31+0000 [APP/0]      OUT 2017-02-09 06:00:30.316  INFO 26 --- [           main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
