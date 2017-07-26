@@ -1,0 +1,11 @@
+# code_snippet springApplicationName start
+spring:
+  application:
+    name: hcscconfig
+# code_snippet springApplicationName end
+encrypt:
+  keyStore:
+    location: classpath:/server.jks
+    password: hcscstorepass
+    alias: hcsckey
+    secret: hcsckeypass

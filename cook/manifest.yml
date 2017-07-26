@@ -1,0 +1,11 @@
+---
+instances: 1
+memory: 512M
+applications:
+  - name: cook
+    host: hcsc
+    path: ./target/cook.jar
+    services:
+      - config-server
+    env:
+      SPRING_PROFILES_ACTIVE: encryption
