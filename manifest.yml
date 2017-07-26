@@ -1,9 +1,0 @@
-applications:
-- name: wastest
-  memory: 1G
-  instances: 1
-  host: wastest
-  path: ./WasTest.jar
-  buildpack: liberty-buildpack  
-  env:
-   IBM_JVM_LICENSE: L-PMAA-A3Z8P2   
