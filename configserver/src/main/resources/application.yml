@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: "https://github.com/salexstephen/test.git"
+
+          
+encrypt:
+  keyStore:
+    location: classpath:/server.jks
+    password: hcscstorepass
+    alias: hcsckey
+    secret: hcsckeypass
